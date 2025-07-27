@@ -362,7 +362,7 @@ const Header = () => {
                 ) : (
                   <div className="flex flex-col">
                     <span
-                      className="cursor-pointer hover:text-primaryColor-200 transition"
+                      className="cursor-pointer hover:text-red-200 transition"
                       onClick={() => router.push("/user/login")}
                     >
                       Log In
@@ -383,7 +383,7 @@ const Header = () => {
                 <DropdownTrigger className="">
                   <button
                     type="button"
-                    className="bg-white border border-primary hover:bg-black cursor-pointer transition-[.4] group text-primary text-2xl group-hover:text-white rounded-full p-0 size-10"
+                    className="bg-white border border-transparent shadow-md hover:bg-red-200 hover:text-white cursor-pointer transition-[.4] group text-primary text-2xl group-hover:text-white p-0 size-10"
                   >
                     {baseCurrency?.symbol}
                   </button>
@@ -414,7 +414,7 @@ const Header = () => {
               >
                 {typeof window !== "undefined" && (
                   <div className="flex relative justify-center items-center w-12 h-12 p-2 text-sm">
-                    <span className="absolute -top-1 -right-1 w-5 h-5 bg-red-500 text-white shadow-lg flex justify-center items-center rounded-full">
+                    <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary text-white shadow-lg flex justify-center items-center rounded-full">
                       {totalItems}
                     </span>
                     <ShoppingCart className="text-primary" />

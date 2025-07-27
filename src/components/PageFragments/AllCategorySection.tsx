@@ -176,7 +176,8 @@ const AllCategorySection = () => {
 
 			<ProductShowcase />
 
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 overflow-x-auto hide-scrollbar mt-4 md:mt-6 lg:mt-8">
+			<p className="text-3xl">Categories</p>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 overflow-x-auto hide-scrollbar max-md:mt-6 max-lg:mt-8">
               {categoryWpIsLoading ? (
                 // Loading state for the smaller images in the grid
                 <>
