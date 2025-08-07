@@ -121,7 +121,7 @@ const Footer = () => {
   const staggerDelay = 0.2;
 
   return (
-    <footer className="bg-gray-700 w-full py-2 flex flex-col item-center border-t-[3px] border-primary">
+    <footer className="bg-[#404040] w-full py-2 flex flex-col item-center ">
       <div className="mx-auto max-w-[1400px] w-full hidden slg:block">
         <section className="flex justify-center gap-16 mt-2">
           <div className="flex flex-col gap-4 w-[80%]">
@@ -149,7 +149,7 @@ const Footer = () => {
           <div className="flex gap-4 w-full pt-3">
             {footerData.map((section, index) => (
               <div key={index} className="flex flex-col gap-4 lg:gap-5 w-full">
-                <span className="text-primary font-[500] text-base leading-[1.6]">
+                <span className="text-white font-[500] text-base leading-[1.6]">
                   {section.title}
                 </span>
                 {section.links.map((link, linkIndex) => (
@@ -157,7 +157,7 @@ const Footer = () => {
                     key={linkIndex}
                     href={link.href}
                     onClick={link.function}
-                    className="text-white text-sm font-[400] leading-[1.3] hover:text-primary transition-[.3]"
+                    className="text-white/80 text-sm font-[200] leading-[1.3] hover:text-primary transition-[.3]"
                   >
                     {link.label}
                   </Link>
@@ -209,7 +209,7 @@ const Footer = () => {
                   <Link
                     key={linkIndex}
                     href={link.href}
-                    className="text-white text-xs sm:text-sm font-[400] hover:text-primary transition-[.3] leading-6"
+                    className="text-white  text-xs sm:text-sm font-[200] hover:text-primary transition-[.3] leading-6"
                   >
                     {link.label}
                   </Link>

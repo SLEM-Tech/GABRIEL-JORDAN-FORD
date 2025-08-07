@@ -40,6 +40,11 @@ export {
 	categoryImg2,
 };
 
+export const sectionImage = {
+	src: "./images/section-image.png",
+	alt: "section",
+};
+
 export const fashionSnip = {
 	src: "./images/fashion-snip.png",
 	alt: "Fashion snip",

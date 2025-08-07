@@ -90,8 +90,8 @@ const ProductCard2 = ({
 
 	return (
 		<div
-			className={`flex flex-col gap-2 justify-center items-center min-w-[150px] md:min-w-[180px] slg:min-w-[180px] slg:max-w-[180px] h-[200px] sm:h-[230px] slg:h-[260px] cursor-pointer rounded-sm ${
-				boxShadow ? "shadow-lg bg-white" : "border-[1px] border-[#bfbfbf4f]"
+			className={`flex flex-col gap-2 justify-center items-center min-w-[220px] md:min-w-[250px] slg:min-w-[250px] slg:max-w-[250px] h-[220px] sm:h-[250px] slg:h-[280px] cursor-pointer rounded-sm ${
+				boxShadow ? "shadow-lg bg-white" : "shadow-sm bg-white"
 			} hover:shadow-lg hover:scale-105 transition`}
 		>
 			<div className='flex-[.8] w-full relative flex items-center justify-center overflow-hidden rounded-t-sm'>

@@ -12,7 +12,7 @@ import { useEncryptionHelper } from "../EncryptedData";
 import { useDispatch } from "react-redux";
 import { updateCategorySlugId } from "../config/features/subCategoryId";
 import { useRouter } from "next/navigation";
-import { heroImage } from "@public/images";
+import { heroImage, sectionImage } from "@public/images";
 import ProductShowcase from "../ProductShowcase";
 
 const AllCategorySection = () => {
@@ -176,7 +176,7 @@ const AllCategorySection = () => {
 
 			<ProductShowcase />
 
-			<p className="text-3xl">Categories</p>
+			{/* <p className="text-3xl">Categories</p> */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 overflow-x-auto hide-scrollbar max-md:mt-6 max-lg:mt-8">
               {categoryWpIsLoading ? (
                 // Loading state for the smaller images in the grid
@@ -282,6 +282,12 @@ const AllCategorySection = () => {
             })}
           </div>
           {/* </Carousel> */}
+
+          <img 
+            src={sectionImage.src}
+            alt="hero-image"
+            className="w-full object-fill h-fit sm:h-[470px] my-20"
+          />
         </>
       )}
     </>
