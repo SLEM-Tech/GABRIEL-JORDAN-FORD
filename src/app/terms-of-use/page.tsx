@@ -347,7 +347,7 @@ const Page = () => {
 							<span className='font-medium'>3. Installation & Setup Service Refunds</span>
 							<ul className='list-disc pl-5 mt-1 space-y-1'>
 							<li>Installation failure refunds if equipment cannot be properly installed</li>
-							<li>System commissioning refunds if installations don't pass testing</li>
+							<li>System commissioning refunds if installations don&apos;t pass testing</li>
 							<li>User training refunds if training doesn&apos;t enable proper system operation</li>
 							<li>Setup service refunds for configurations not meeting operational requirements</li>
 							<li>Technical support refunds for unresolved post-installation issues</li>
