@@ -348,7 +348,7 @@ const Page = () => {
 							<ul className='list-disc pl-5 mt-1 space-y-1'>
 							<li>Installation failure refunds if equipment cannot be properly installed</li>
 							<li>System commissioning refunds if installations don't pass testing</li>
-							<li>User training refunds if training doesn't enable proper system operation</li>
+							<li>User training refunds if training doesn&apos;t enable proper system operation</li>
 							<li>Setup service refunds for configurations not meeting operational requirements</li>
 							<li>Technical support refunds for unresolved post-installation issues</li>
 							</ul>
@@ -361,7 +361,7 @@ const Page = () => {
 							<li>Communication breakdown refunds for poor project information management</li>
 							<li>Resource management refunds if resource allocation affects project success</li>
 							<li>Timeline management refunds for schedule failures due to our coordination</li>
-							<li>Quality management refunds if oversight doesn't maintain standards</li>
+							<li>Quality management refunds if oversight doesn&apos;t maintain standards</li>
 							</ul>
 						</li>
 
